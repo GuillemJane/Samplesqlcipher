@@ -30,4 +30,5 @@ CREATE TABLE version(version_id integer primary key);
 sqlite> select * from version;
 5
 "
+
 For any question you have about the sample you can contact me openning an issue.
