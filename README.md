@@ -7,6 +7,8 @@ To compile it in Linux use "sh build.sh", check the location of your library thi
 
 To execute the sample "sh test.sh"
 
+The only source file is samplecrypt.cpp, opens, defines a key, creates a table and fills it. Then recovers the contents.
+
 After runnig the test you could open demo.db with sqlcipher and check what has been created:
 
 $HOME>sqlcipher
@@ -26,3 +28,5 @@ CREATE TABLE version(version_id integer primary key);
 sqlite> select * from version;
 
 5
+
+For any question you have about the sample you can contact me.
