@@ -12,10 +12,17 @@ After runnig the test you could open demo.db with sqlcipher and check what has b
 $HOME>sqlcipher
 
 SQLCipher version 3.15.2 2016-11-28 19:13:37
+
 Enter ".help" for instructions
+
 Enter SQL statements terminated with a ";"
+
 sqlite> PRAGMA key="demo";
+
 sqlite> .schema
+
 CREATE TABLE version(version_id integer primary key);
+
 sqlite> select * from version;
+
 5
