@@ -1,0 +1,2 @@
+rm demo.db
+./SampleCrypt
